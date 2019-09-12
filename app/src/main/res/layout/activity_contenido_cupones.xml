@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".contenido_cupones"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:background="#FDFDFD">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text='Ken Robinson "Las escuelas matan la creatividad"'
+              android:textSize="22sp"
+              android:textColor="#000000"
+              android:id="@+id/tvTituloCupones"
+              app:fontFamily="@font/robotolight"
+              android:textStyle="bold"/>
+    <TextView
+            android:text="Subtitulos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHoraCupones"
+            android:textStyle="bold"
+            app:fontFamily="@font/robotolight"
+            android:textSize="18sp"
+            android:textColor="#070606"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDetalleCupones"
+            android:text="Lo que Ken Robinson pone de manifiesto, es que es necesario potenciar otros métodos de aprendizaje y enseñanza, resolución de problemas y respaldo de la creatividad, y esto es algo que considero que podemos conseguir gracias a utilizar mucho más nuestro pensamiento visual. Dentro de la educación es vital empezar a dar protagonismo y fomentar la Creatividad, teniendo que llegar a considerarla algo básico como la alfabetización."
+            android:textSize="18sp"
+            android:textColor="#575656"
+            android:layout_marginTop="10dp"
+            app:fontFamily="@font/robotolight"
+            android:background="#FFFFFF"/>
+
+
+
+
+</LinearLayout>

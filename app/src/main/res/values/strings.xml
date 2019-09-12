@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">
+
+    </string>
+    <string name="texto1">TITULO1</string>
+    <string name="texto2">Descripción titulo1</string>
+    <string name="title_activity_servicios">ServiciosActivity</string>
+    <string name="hint">Titulo, descripción</string>
+
+</resources>

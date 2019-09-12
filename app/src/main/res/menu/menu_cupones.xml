@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/action_setting"
+            android:title="filtra"
+            app:showAsAction="always|withText"
+            android:orderInCategory="0"
+            android:icon="@drawable/filtro_negocios"
+
+    >
+        <!-- Starting the text color sub menu which have three items-->
+        <!--<menu>-->
+            <!--<item-->
+                    <!--android:id="@+id/red"-->
+                    <!--android:title="Red"-->
+            <!--/>-->
+            <!--<item-->
+                    <!--android:id="@+id/green"-->
+                    <!--android:title="Green"-->
+            <!--/>-->
+            <!--<item-->
+                    <!--android:id="@+id/blue"-->
+                    <!--android:title="Blue"-->
+            <!--/>-->
+        <!--</menu>-->
+    </item>
+
+</menu>
+        <!--android:orderInCategory="100"-->
+<!--<item android:id="@+id/action_setting"-->
+      <!--android:title="filtra"-->
+      <!--app:showAsAction="ifRoom"-->
+<!--/>-->

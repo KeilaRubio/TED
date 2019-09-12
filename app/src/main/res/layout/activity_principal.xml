@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".PrincipalActivity">
+    <Button
+            android:layout_marginTop="100dp"
+            android:id="@+id/principal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Principal"
+           />
+    <Button
+            android:id="@+id/aviso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avisos"
+            android:layout_gravity="center_horizontal"
+    />
+    <Button
+            android:id="@+id/noticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noticias"
+            android:layout_gravity="center_horizontal"
+    />
+    <Button
+            android:id="@+id/servicioss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servicios"
+            android:layout_gravity="center_horizontal"
+    />
+    <Button
+            android:id="@+id/negocios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Negocios"
+            android:layout_gravity="center_horizontal"
+    />
+    <Button
+            android:id="@+id/cupones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cupones"
+            android:layout_gravity="center_horizontal"
+    />
+    <Button
+            android:id="@+id/calificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calificar"
+            android:layout_gravity="center_horizontal"
+    />
+
+
+
+</LinearLayout>

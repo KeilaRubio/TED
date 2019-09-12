@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.ted">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:name=".activity.preferencias.SharedApp"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:usesCleartextTraffic="true">
+        <activity android:name=".CalificarNegocio"
+                  android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity android:name=".MenuLocalesFragment">
+        </activity>
+        <activity
+                android:name=".DetalleFavorito"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+                android:name=".DetalleNegocio"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+                android:name=".contenido_cupones"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity android:name=".Fragmentt">
+        </activity>
+        <activity android:name=".TercerFragment">
+        </activity>
+        <activity android:name=".SegundoFrament">
+        </activity>
+        <activity android:name=".PrimerFragment">
+        </activity>
+        <activity
+                android:name=".FiltroFragment"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+                android:name=".Recycler_cupones"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+                android:name=".RecyclerNegocios"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+                android:name=".ServiciosActivity"
+                android:label="@string/app_name"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity android:name=".PrincipalActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".InicioActivity"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+                android:name=".activity.noticias.DetalleAvisosActivity"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity android:name=".Recycler_avisos">
+        </activity>
+        <activity
+                android:name=".activity.noticias.DetalleNoticiaActivity"
+                android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Recycler_cupones"
+        android:background="#fff"
+        android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_cupones"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:title="Cupones"
+            android:theme="@style/AppTheme"
+            android:background="#fff"
+    >
+        <LinearLayout
+                android:id="@+id/lyCuponesFiltro"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:layout_width="60dp"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:id="@+id/iv_cerrar"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/filter2"
+            />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/toolbar_cupones"
+            android:id="@+id/rv_cupones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+    <com.example.ted.SlidingRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <FrameLayout
+                android:id="@+id/flFiltro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </FrameLayout>
+    </com.example.ted.SlidingRelativeLayout>
+
+</RelativeLayout>
+<!--<FrameLayout-->
+<!--android:id="@+id/filtro"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content">-->
+
+<!--</FrameLayout>-->
+        <!--<include layout="@layout/activity_seccion_deslizante"-->
+        <!--android:background="#FAFAFA"-->
+        <!--android:layout_below="@+id/toolbar_cupones" android:layout_height="match_parent" android:layout_width="match_parent"/>-->
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/relati"
+                android:orientation="vertical"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:padding = "20dp">
+    <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:foreground="@drawable/image_inicio"
+            android:padding="5dp"
+            >
+        <ImageView
+                android:id="@+id/image_previa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+        />
+        <VideoView
+                android:id="@+id/slider_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+        />
+    </RelativeLayout>
+
+
+    <ImageView
+            android:background="@drawable/play2"
+            android:id="@+id/play"
+            android:layout_width="65dp"
+            android:visibility="visible"
+            android:layout_height="65dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="100dp"
+            tools:ignore="NotSibling"/>
+
+    <ImageView
+            android:id="@+id/pause"
+            android:layout_width="30dp"
+            android:visibility="visible"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@id/slider_image"
+            android:layout_marginBottom="16dp"
+            android:layout_toRightOf="@id/play"
+            android:layout_marginLeft="16dp"
+            tools:ignore="NotSibling"/>
+
+</RelativeLayout>

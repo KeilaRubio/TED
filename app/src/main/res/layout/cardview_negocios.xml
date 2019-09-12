@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/rlNegocios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/img_negocios"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/con1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center_vertical"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#FEFEFE"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/txt_negocio"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre"
+                            app:fontFamily="@font/robotoregular"
+                            android:textStyle="bold"
+                            android:textColor="#232F34"
+                            android:textSize="16sp"
+                    />
+                    <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/lyMasOpciones"
+                            android:gravity="center"
+                            android:layout_marginLeft="50dp"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp">
+                        <ImageView
+                                android:id="@+id/ivMasOpciones"
+                                android:src="@drawable/masopcionesnegocio"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <RatingBar
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="3.5"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:isIndicator="true"
+                        android:progressTint="#FCD018"
+                        android:progressBackgroundTint="#A1ADB1"
+                        android:secondaryProgressTint="#FCD018"
+                />
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:id="@+id/puntos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:fontFamily="@font/robotoregular"
+                            android:textColor="#232F34"
+                            android:textSize="14dp"
+                            android:text="5"/>
+                    <ImageView
+                            android:id="@+id/imagen_puntos"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/user"
+                    />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_below="@+id/rlNegocios"
+                android:id="@+id/rvServicio"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+    <View
+            android:layout_below="@+id/rvServicio"
+            android:layout_width="fill_parent"
+            android:layout_height="7dp"
+            android:background="#ECECEC"/>
+
+</RelativeLayout>
+<!--// <View-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="7dp"-->
+<!--android:background="#ECECEC"/>-->
